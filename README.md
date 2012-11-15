@@ -2,7 +2,7 @@
 
 After testing several plugins that claimed to allow for displaying post/page content in columns I found that most of them either didn't work at all, or only partially worked due to not being updated for changes to the WordPress core.
 
-I originally up combining a custom post type with a simple shortcode function to display the appropriate post content in columns, but found this much too cumbersome and time-consuming to update so I set about developing a new method that involved as little time and effort as possible. Thus, WPColumns was born!
+I originally combined a custom post type with a simple shortcode function to display the appropriate post content in columns, but found this much too cumbersome and time-consuming to update so I set about developing a new method that involved as little time and effort as possible. Thus, WPColumns was born!
 
 ##Installation##
 
@@ -28,7 +28,9 @@ this is the second column, I hope you enjoy reading it.
 [columns close=true]
 ```
 
-You can have multiple column areas on the page and there is no limit to how many columns can be in each are, but by default this plugin supports either 2 or 3 columns.
+Make sure you include the `count` parameter with an integer value in the opening `columns` shortcode as this is used to assign the appropriate class for sizing and positioning of the columns.
+
+You can have multiple column areas on the page and there is no limit to how many columns can be in each area, but by default this plugin supports either 2 or 3 columns per area.
 
 To end a column or column area, simply pass the `close` parameter with any value other than `false`.
 
@@ -38,7 +40,7 @@ Optionally, both the `columns` and `column` shortcodes accept a `class` paramete
 
 As usual with my work, this project is available under the BSD 3-Clause license. In short, you can do whatever you want with this code as long as:
 
-* I am always recognised as the original author but.
+* I am always recognised as the original author.
 * I am not used to advertise any derivative works without prior permission.
 * You include a copy of said license and attribution with any and all redistributions of this code, including derivative works.
 
