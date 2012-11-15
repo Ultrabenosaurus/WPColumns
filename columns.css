@@ -1,0 +1,31 @@
+.columns_plugin + p, p + .columns_plugin{
+	border-top: #CCC dashed thin;
+	padding-top: 12px;
+}
+.columns_plugin div, .columns_plugin p{
+	display: inline-block !important;
+	vertical-align: top;
+}
+.columns_plugin.cols_2 .columns_plugin_col{
+	width: 47% !important;
+}
+.columns_plugin.cols_2 .columns_plugin_col:first-child{
+	padding-right: 2%;
+	padding-left: 1%;
+}
+.columns_plugin.cols_2 .columns_plugin_col:last-child{
+	padding-left: 2%;
+}
+.columns_plugin.cols_3 .columns_plugin_col{
+	width: 30% !important;
+}
+.columns_plugin.cols_3 .columns_plugin_col:first-child{
+	padding-right: 2%;
+}
+.columns_plugin.cols_3 .columns_plugin_col:not(:first-child):not(:last-child){
+	padding-right: 2%;
+	padding-left: 2%;
+}
+.columns_plugin.cols_3 .columns_plugin_col:last-child{
+	padding-left: 2%;
+}
