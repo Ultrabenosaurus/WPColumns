@@ -6,7 +6,7 @@ I originally up combining a custom post type with a simple shortcode function to
 
 ##Installation##
 
-1. [Download]() the plugin
+1. [Download](https://github.com/Ultrabenosaurus/WPColumns/archive/master.zip) the plugin
 2. Login to your WordPress admin panel
 3. Go to *Plugins > Add New > Upload*
 4. Browse to the ZIP file you downloaded in step one
@@ -38,4 +38,4 @@ Optionally, both the `columns` and `column` shortcodes accept a `class` paramete
 
 As usual with my work, this project is available under the BSD 3-Clause license. In short, you can do whatever you want with this code as long as I am always recognised as the original author but am not used to advertise any derivative works without prior permission.
 
-For more details, read the included [LICENSE.md]() file.
+For more details, read the included [LICENSE.md](https://github.com/Ultrabenosaurus/WPColumns/blob/master/LICENSE.md) file.
